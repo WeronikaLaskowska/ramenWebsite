@@ -23,6 +23,7 @@ export const MenuContainer = styled.div`
     background-color: #070504;
     align-items: center;
     justify-content: center;
+
      @media screen and (min-width:800px){
         padding-left:20%;
     } 
@@ -42,7 +43,7 @@ display:flex;
 align-items: center;
 background: linear-gradient(45deg, #e31837, #d7b766 );
 border-radius: 20px;
-margin-left:250px;
+margin-left: 250px;
 &:hover{
     img{
         opacity:0;

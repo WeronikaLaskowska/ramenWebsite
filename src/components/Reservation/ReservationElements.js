@@ -29,6 +29,7 @@ export const ReservationContainer = styled.div`
     display:flex;
     flex-direction: column;
     padding-top:100px;
+    padding-bottom:100px;
    
     @media screen and (min-width:700px) {
         display:grid;
