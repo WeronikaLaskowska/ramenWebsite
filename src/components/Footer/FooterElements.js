@@ -10,6 +10,9 @@ export const FooterElement = styled.div`
     justify-content: space-between;
     padding:5px 25px;
     font-size:1.2rem;
+    position: fixed;
+    bottom:0;
+    background: transparent;
     cursor:pointer;
     svg{
         width: 30px;
