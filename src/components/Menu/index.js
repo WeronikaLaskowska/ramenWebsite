@@ -7,7 +7,7 @@ const Menu = ({menu}) => {
    
     return (
         <>
-        <MenuHeader>menu.</MenuHeader>
+        <MenuHeader id="menu">menu.</MenuHeader>
         <MenuContainer>
                 {menu.map( (product, index) => {
                     return (

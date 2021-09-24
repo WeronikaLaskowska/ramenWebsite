@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { NavLink as Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 export const Nav = styled.nav`
 background:transparent;
@@ -7,6 +7,11 @@ height:80px;
 display:flex;
 justify-content:space-between;
 font-weight: 900;
+position:fixed;
+top:0;
+left:0;
+right:0;
+z-index:100000;
 @media screen and (min-width:600px) {
     padding: 0 5rem;
 }

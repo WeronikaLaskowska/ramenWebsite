@@ -6,7 +6,7 @@ import chefTwo from '../../images/chef2.jpg'
 const Chef = () => {
     return (
         <>
-        <ChefHeader>meet our Chef.</ChefHeader>
+        <ChefHeader id="chef" >meet our Chef.</ChefHeader>
         <ChefContainer>
         <ChefImage src={chefOne}></ChefImage>
         <ChefContent>

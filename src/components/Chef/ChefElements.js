@@ -13,7 +13,7 @@ font-weight: 100;
 
 
 `
-export const ChefContainer= styled.div`
+export const ChefContainer = styled.div`
 
     height: 100%;
     width: 100%;
@@ -42,7 +42,7 @@ export const ChefImage = styled.img`
     cursor: pointer;
     &:hover{
         opacity:1;
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
 
     @media screen and (min-width:1000px){
