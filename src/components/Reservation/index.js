@@ -2,14 +2,16 @@ import React from 'react'
 import { ReservationContainer, ReservationForm, ReservationHeader, ReservationInput, ReservationLabel, ReservationLowerHeader, ReservationPicture, SubmitButton } from './ReservationElements'
 import reservation from '../../images/reservation.png'
 
+
 const Reservation = () => {
+
     return (
         <>
             <ReservationHeader id="reservations">make a Reservation.</ReservationHeader>
             <ReservationLowerHeader>please fill the form below, and our team will contact you as soon as possible to arrange a reservation.</ReservationLowerHeader>
             <ReservationContainer>
-                <ReservationPicture src={reservation}></ReservationPicture>
-                <ReservationForm>
+                <ReservationPicture data-aos="fade-up" src={reservation}></ReservationPicture>
+                <ReservationForm data-aos="fade-up">
 
                     <ReservationLabel type="text" >fist name.</ReservationLabel>
                     <ReservationInput required></ReservationInput>

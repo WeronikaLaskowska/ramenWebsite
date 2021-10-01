@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from 'react-scroll';
 
 export const Nav = styled.nav`
-background:transparent;
+background:transparent !important;
 height:80px;
 display:flex;
 justify-content:space-between;
@@ -53,11 +53,7 @@ export const Bars = styled.img`
     top:15px;
     right:20px;
     cursor:pointer;
-    transform: scale(1);
-    transition: all 0.5s;
-    &:hover{
-        transform: scale(1.2);
-    }
+    z-index:-100;
     @media screen and (min-width:600px) {
     margin-right: 2rem;
 }

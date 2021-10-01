@@ -4,14 +4,14 @@ import MenuItem from './MenuItem'
 
 
 const Menu = ({menu}) => {
-   
+ 
     return (
         <>
         <MenuHeader id="menu">menu.</MenuHeader>
-        <MenuContainer>
+        <MenuContainer >
                 {menu.map( (product, index) => {
                     return (
-                        <MenuItem key={index} header={product.header} paragraph={product.paragraph} url={product.url}/>
+                        <MenuItem data-aos="fade-up" key={index} header={product.header} paragraph={product.paragraph} url={product.url}/>
                     )
                 })}
         </MenuContainer>

@@ -2,9 +2,10 @@ import React from 'react'
 import { MenuCard, MenuCardBtn, MenuCardContent, MenuCardImg } from './MenuElements'
 
 const MenuItem = ({header, paragraph, url}) => {
+
     return (
         <div>
-            <MenuCard>
+            <MenuCard data-aos="fade-up">
                 <MenuCardContent id="content">
                     <h2>{header}</h2>
                     <p>{paragraph}</p>

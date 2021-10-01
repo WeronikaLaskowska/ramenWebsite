@@ -24,7 +24,7 @@ right: ${({ isOpen }) => (isOpen ? '0' : '-1000px')};
 `
 export const Icon = styled.div`
 position:absolute;
-top:1.2rem;
+top:4rem;
 right:1.5rem;
 cursor:pointer;
 outline: none;
