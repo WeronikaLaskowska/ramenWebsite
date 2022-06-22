@@ -30,6 +30,7 @@ export const MenuContainer = styled.div`
    @media screen and (min-width: 1200px){
        grid-template-columns: 1fr 1fr;
         padding-left:0; 
+     place-items: center;
    }
 
 
