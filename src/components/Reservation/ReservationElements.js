@@ -59,15 +59,17 @@ export const ReservationLabel = styled.label`
 export const ReservationInput = styled.input`
     width: 80%;
     height: 30px;
-    border-radius: 5%;
+    border-radius: 7px;
     border:none;
     max-width: 600px;
-   
+    padding:5px 10px;
+   background:#CCCCCC;
+   transition: .4s all;
     &:last-of-type{
         margin-bottom: 20px;
     }
     &:focus{
-        border:3px solid #e31837;
+        background:#fff;
         outline:none;
     }
     @media screen and (min-width: 700px) {
